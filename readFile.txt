@@ -1,0 +1,10 @@
+Arquiteturas de sistemas distribuídos
+Existem vários tipos de sistemas distribuídos. Os mais comuns são os seguintes:
+Cliente-servidor
+Uma arquitetura cliente-servidor é dividida em duas responsabilidades principais. O cliente é
+responsável pela apresentação da interface do usuário, que então se conecta pela rede ao servidor. O
+servidor é responsável por lidar com a lógica empresarial e o gerenciamento do estado. Uma
+arquitetura cliente-servidor pode ser degradada com facilidade para uma arquitetura centralizada se
+o servidor não for redundante. Uma configuração cliente-servidor de fato distribuída vai ter vários
+pontos centrais de servidor para distribuir as conexões do cliente. A maioria das arquiteturas cliente-
+servidor modernas são clientes que se conectam a um sistema distribuído encapsulado no servidor.
